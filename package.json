@@ -1,0 +1,42 @@
+{
+  "name": "us1bza-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "audit": "pnpm audit --audit-level=moderate",
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "latest",
+    "@radix-ui/react-dialog": "1.0.5",
+    "@radix-ui/react-progress": "1.0.3",
+    "@radix-ui/react-slot": "1.0.2",
+    "@radix-ui/react-tabs": "1.0.4",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.1.0",
+    "framer-motion": "11.0.3",
+    "lucide-react": "0.263.1",
+    "next": "16.0.10",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "recharts": "3.6.0",
+    "tailwind-merge": "2.2.1",
+    "tailwindcss-animate": "1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "autoprefixer": "10.4.17",
+    "eslint": "9.18.0",
+    "eslint-config-next": "16.0.10",
+    "postcss": "8.4.35",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.7.2"
+  },
+  "packageManager": "pnpm@8.15.1"
+}
